@@ -12,6 +12,7 @@ export default function Navbar() {
           <i class="fa-solid fa-xmark"></i>
           <ul>
             <li><a href="index.html">HOME</a></li>
+            <li><a className='phonenumber' tel="+442034880982">+44(0)2034880982</a></li>
           </ul>
         </div>
         <i class="fa-solid fa-bars"></i>

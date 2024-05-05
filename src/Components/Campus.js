@@ -11,7 +11,7 @@ export default function Campus() {
       <section class="campus">
         <h1>Our Services</h1>
         <p>
-          We offer you alternative services 
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, dolorem?
         </p>
 
         <div class="row">

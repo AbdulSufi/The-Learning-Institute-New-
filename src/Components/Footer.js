@@ -20,6 +20,7 @@ export default function Footer() {
           <i class="fa-brands fa-linkedin"></i>
         </div>
 
+        <a className='phonenumber' tel="+442034880982"> Tel: +44(0)2034880982</a>
         <p>@CopyRight 2022</p>
       </section>
     </div>
