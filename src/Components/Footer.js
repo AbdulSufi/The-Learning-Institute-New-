@@ -21,8 +21,9 @@ export default function Footer() {
         </div>
 
         <a className='phonenumber' tel="+442034880982"> Tel: +44(0)2034880982</a>
-        <p>@CopyRight 2022</p>
-      </section>
+        <a className='phonenumber' email="Info@learning-institute.co.uk"> Email: Info@learning-institute.co.uk</a>
+        <p>@CopyRight 2024</p>
+      </section> 
     </div>
   );
 }

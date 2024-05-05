@@ -10,9 +10,6 @@ export default function Campus() {
           <div class="divider">
       <section class="campus">
         <h1>Our Services</h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, dolorem?
-        </p>
 
         <div class="row">
           <div class="campus-col">
