@@ -590,6 +590,19 @@ h3{
   box-sizing: border-box;
 }
 
-.phonenumber {
+.contact{
+  margin-top: 5%;
+}
+
+.contactDetails {
   letter-spacing: 2px;
+  padding: 10px;
+  border: rgb(78, 78, 78) solid 2px;
+  margin: 10px;
+  text-align: center;
+}
+
+.copyright{
+  text-align: center;
+  margin-top: 2%;
 }

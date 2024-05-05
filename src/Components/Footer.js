@@ -20,10 +20,19 @@ export default function Footer() {
           <i class="fa-brands fa-linkedin"></i>
         </div>
 
-        <a className='phonenumber' tel="+442034880982"> Tel: +44(0)2034880982</a>
-        <a className='phonenumber' email="Info@learning-institute.co.uk"> Email: Info@learning-institute.co.uk</a>
-        <p>@CopyRight 2024</p>
+        <div className="contact">
+          <h4>Contact:</h4>
+          <a className='contactDetails' tel="+442034880982"> Tel: +44(0)2034880982</a>
+          <a className='contactDetails' email="Info@learning-institute.co.uk"> Email: Info@learning-institute.co.uk</a>
+          <a className='contactDetails' Address="Info@learning-institute.co.uk"> Address: London, United Kingdom</a>
+        </div>
+
+        <div className="copyright">
+          <p>@CopyRight 2024</p>
+        </div>
+
       </section> 
+      
     </div>
   );
 }
