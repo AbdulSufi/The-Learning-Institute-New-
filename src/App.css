@@ -379,12 +379,12 @@ h3{
 }
 
 /* -----------footer---------- */
-
+/* 
 .footer{
   width: 100%;
   text-align: center;
   padding: 30px 0;
-  /* background-color:rgba(47, 193, 255, 0.6); */
+
 }
 
 .footer p{
@@ -405,7 +405,76 @@ h3{
   cursor: pointer;
   padding: 18px 0;
 }
+  */
 
+  footer {
+    background: #F1F9F9;
+    max-width: 1728px;
+    padding: 80px 92px 30px 92px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerHeadings {
+    color: #353535;
+    text-align: left;
+    font-family: "Alata";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.footerText {
+    color: #353535;
+    text-align: left;
+    font-family: Alata;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footerImage {
+    width: 300px;
+    height: 135px;
+    border-radius: 6px;
+}
+
+.footerIcon1 {
+    width: 106px;
+    height: 95px;
+}
+
+.footerIcon2 {
+    width: 100px;
+    height: 100px;
+}
+
+.footerContent {
+    display: flex;
+    align-items: flex-start;
+    gap: 126px;
+    max-width: 1099px;
+}
+
+.copyrightSection {
+    display: flex;
+    max-width: 1728px;
+    padding: 20px 92px;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #CDCDCD;
+    background: #F1F9F9;
+    color: #353535;
+    text-align: center;
+    font-family: 'Alata';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 /* ----------About Us Page-------- */
 
 .sub-header{
