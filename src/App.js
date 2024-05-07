@@ -11,7 +11,7 @@ function App() {
    <>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={ <><Header/> <Courses/> <Campus/> <Facilities/> <Cta/> <Footer/></>}/>
+        <Route path='/' element={ <><Header/> <Courses/> <Facilities/> <Campus/> <Cta/> <Footer/></>}/>
       </Routes>
     </BrowserRouter>
    </>

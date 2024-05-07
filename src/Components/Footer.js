@@ -44,10 +44,10 @@ export default function Footer() {
             <div class="quickLinks">
                 <p class="footerHeadings">Quick Links</p>
                 <p class="footerText">Home</p>
-                <p class="footerText">About Us</p>
+                <p class="footerText">About</p>
                 <p class="footerText">Services</p>
                 <p class="footerText">Prices</p>
-                <p class="footerText">Contact Us</p>
+                <p class="footerText">Contact</p>
             </div>
 
             <div class="legalServices">
