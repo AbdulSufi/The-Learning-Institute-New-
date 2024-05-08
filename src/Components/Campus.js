@@ -16,7 +16,7 @@ export default function Campus() {
             <img src={london} />
 
             <div class="layer">
-              <h3>LONDON</h3>
+              <h3>Tuition can take place during school, afterschool, evenings or weekends.</h3>
             </div>
           </div>
 
@@ -24,7 +24,7 @@ export default function Campus() {
             <img src={newYork} />
 
             <div class="layer">
-              <h3>NEW YORK</h3>
+              <h3>Both in person and online tuition is offered depending on tutor allocation and preference.</h3>
             </div>
           </div>
 
@@ -32,7 +32,7 @@ export default function Campus() {
             <img src={washington} />
 
             <div class="layer">
-              <h3>WASHINGTON</h3>
+              <h3>All tutors are fully qualified outstanding teachers fully trained to teach vulnerable groups.</h3>
             </div>
           </div>
         </div>

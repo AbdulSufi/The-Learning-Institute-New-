@@ -33,21 +33,23 @@ export default function Courses() {
               <br />
               <br />
               - Trained in CBT and Trauma Informed Practices <br />
-              <br />- Our teachers have experience in delivering lessons to SEN
-              students with SEN including Autism/ASC, ADHD/ADD,Dyslexia, Social,
-              Emotional Health Needs, Dyspraxia/DCD, Working memory or
-              processing difficulties.
+              <br />- Our teachers have experience working with students with autism/ASC, ADHD/ADD, Dyslexia, SEMH and Dyspraxia. 
             </p>
           </div>
 
           <div class="course-col">
             <h3>Alternative Provision (AP)</h3>
             <p>
-              - Teachers with Outstanding behaviour management skills <br />
+              - Teachers with Outstanding behaviour management skills 
               <br />
-              - Rapport building and holistic target setting <br />
-              <br />- Promote progress by planning lessons aligned to the
-              curriculum
+              <br />
+              - Rapport building and holistic target setting 
+              <br />
+              <br />
+              - Promote progress by planning lessons aligned to the curriculum
+              <br />
+              <br />
+              - Proactive communication and feedback to parents/schools regarding progress/attendance.
             </p>
           </div>
         </div>

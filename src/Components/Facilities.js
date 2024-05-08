@@ -20,7 +20,7 @@ export default function Facilities() {
       <div class="row">
         <div class="facilities-cols">
           <img src={library} />
-          <h3>Personalised Curriculum Alignment</h3>
+          <h3>Curriculum Alignment</h3>
           <div class="facilities-cols-inner">
             <ul>
               <li>
@@ -44,10 +44,6 @@ export default function Facilities() {
           <h3>Engaging Virtual Classroom</h3>
           <div class="facilities-cols-inner">
             <ul>
-              <li>
-                Tuition can take place during school hours or after school.
-              </li>
-              <br />
               <li>
                 Leverage a diverse range of interactive tools and multimedia
                 resources within the online classroom to create dynamic and
@@ -77,7 +73,7 @@ export default function Facilities() {
               <br />
               <li>
                 Deliver holistic tuition to promote overall student welfare and
-                academic progress in a nurturing learning environment.
+                academic progress in a nurturing learning environment. Nurture students' academic, emotional, and social growth for comprehensive success
               </li>
             </ul>
           </div>
