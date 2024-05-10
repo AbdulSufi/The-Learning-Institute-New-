@@ -1,7 +1,7 @@
 import React from 'react'
-import library from "../images/library.png";
-import basketball from "../images/basketball.png";
-import cafeteria from "../images/cafeteria.png";
+import tutoring1 from "../images/kidsimage(2).jpeg";
+import onlinelearning from "../images/kidsimage(1).jpeg";
+import tutoring2 from "../images/kidsimage(3).jpeg";
 
 export default function Facilities() {
   return (
@@ -19,7 +19,7 @@ export default function Facilities() {
 
       <div class="row">
         <div class="facilities-cols">
-          <img src={library} />
+          <img src={tutoring1} />
           <h3>Curriculum Alignment</h3>
           <div class="facilities-cols-inner">
             <ul>
@@ -40,7 +40,7 @@ export default function Facilities() {
         </div>
 
         <div class="facilities-cols">
-          <img src={basketball} />
+          <img src={onlinelearning} />
           <h3>Engaging Virtual Classroom</h3>
           <div class="facilities-cols-inner">
             <ul>
@@ -61,7 +61,7 @@ export default function Facilities() {
         </div>
 
         <div class="facilities-cols">
-          <img src={cafeteria} />
+          <img src={tutoring2} />
           <h3>Holistic Learning Experience</h3>
           <div class="facilities-cols-inner">
             <ul>

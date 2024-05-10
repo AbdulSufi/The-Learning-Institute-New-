@@ -1,7 +1,7 @@
 import React from 'react'
-import london from "../images/london.png";
+import kidsimage5 from "../images/kidsimage(5).jpeg";
 import newYork from "../images/newyork.png";
-import washington from '../images/washington.png';
+import kidsimage4 from '../images/kidsimage(4).jpeg';
 
 
 export default function Campus() {
@@ -13,7 +13,7 @@ export default function Campus() {
 
         <div class="row">
           <div class="campus-col">
-            <img src={london} />
+            <img src={kidsimage5} />
 
             <div class="layer">
               <h3>Tuition can take place during school, afterschool, evenings or weekends.</h3>
@@ -29,7 +29,7 @@ export default function Campus() {
           </div>
 
           <div class="campus-col">
-            <img src={washington} />
+            <img src={kidsimage4} />
 
             <div class="layer">
               <h3>All tutors are fully qualified outstanding teachers fully trained to teach vulnerable groups.</h3>
