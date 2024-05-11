@@ -1,4 +1,7 @@
 import React from "react";
+import kidsimage6 from '../images/kidsimage6.jpeg';
+import kidsimage7 from '../images/kidsimage7.jpeg';
+import kidsimage8 from '../images/kidsimage8.jpeg';
 
 export default function Courses() {
   return (
@@ -7,7 +10,15 @@ export default function Courses() {
         <h1>Tailored Tuition for All Pupils</h1>
         <p>All our tutors are qualified teachers with PGCE and QTS</p>
 
+        <div class="course-images-container">
+          <img className="course-image" src={kidsimage6} width={150} />
+          <img className="course-image" src={kidsimage7} width={150} />
+          <img className="course-image" src={kidsimage8} width={150} />
+        </div>
+
         <div class="row">
+
+
           <div class="course-col">
             <h3>Looked After Child (LAC)</h3>
             <p>
@@ -33,17 +44,17 @@ export default function Courses() {
               <br />
               <br />
               - Trained in CBT and Trauma Informed Practices <br />
-              <br />- Our teachers have experience working with students with autism/ASC, ADHD/ADD, Dyslexia, SEMH and Dyspraxia. 
+              <br />- Our teachers have experience working with students with autism/ASC, ADHD/ADD, Dyslexia, SEMH and Dyspraxia.
             </p>
           </div>
 
           <div class="course-col">
             <h3>Alternative Provision (AP)</h3>
             <p>
-              - Teachers with Outstanding behaviour management skills 
+              - Teachers with Outstanding behaviour management skills
               <br />
               <br />
-              - Rapport building and holistic target setting 
+              - Rapport building and holistic target setting
               <br />
               <br />
               - Promote progress by planning lessons aligned to the curriculum

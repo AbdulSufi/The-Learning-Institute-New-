@@ -162,7 +162,7 @@ p {
 }
 
 .row {
-  margin-top: 5%;
+  margin-top: 2.5%;
   display: flex;
   justify-content: space-between;
 }
@@ -175,6 +175,23 @@ p {
   padding: 20px 12px;
   box-sizing: border-box;
   transition: 0.5s;
+}
+
+.course-images-container {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.course-image {
+  width: 31%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0px rgba(50, 50, 51, 0.512);
+  cursor: pointer;
+  transition: 0.5s;
+
 }
 
 h3 {
