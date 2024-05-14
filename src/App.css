@@ -725,3 +725,33 @@ footer {
   text-align: center;
   margin-top: 2%;
 }
+
+/* ------------facilities-------------- */
+
+.aboutUs-section{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 92%;
+  padding: 10px;
+}
+
+.aboutUs-text{
+width: 50%;
+}
+
+.aboutUs-imageBox{
+width: 40%;
+}
+
+.aboutUs-Image{
+  width:480px;
+  border-radius: 10px;
+  border-radius: 20px;
+  }
+
+  .aboutUs-h1{
+    text-align: center;
+    margin: 40px;
+  }
