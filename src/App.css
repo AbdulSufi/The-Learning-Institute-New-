@@ -184,7 +184,6 @@ p {
   justify-content: space-around;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   border-radius: 10px;
 }
 
@@ -194,7 +193,7 @@ p {
   box-shadow: 0 0 20px 0px rgba(50, 50, 51, 0.512);
   cursor: pointer;
   transition: 0.5s;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 h3 {
@@ -429,11 +428,13 @@ h3 {
 
 footer {
   background: #F1F9F9;
-  max-width: 1728px;
+  width:100%;
   padding: 80px 92px 30px 92px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
+
 
 .footerHeadings {
   color: #353535;
@@ -445,7 +446,6 @@ footer {
   line-height: normal;
 }
 
-
 .footerText {
   color: #353535;
   text-align: left;
@@ -456,32 +456,17 @@ footer {
   line-height: normal;
 }
 
-.footerImage {
-  width: 300px;
-  height: 135px;
-  border-radius: 6px;
-}
-
-.footerIcon1 {
-  width: 106px;
-  height: 95px;
-}
-
-.footerIcon2 {
-  width: 100px;
-  height: 100px;
-}
-
 .footerContent {
   display: flex;
-  align-items: flex-start;
+  flex-wrap: wrap;
+
   justify-content: space-between;
   width: 100%;
 }
 
 .copyrightSection {
   display: flex;
-  max-width: 1728px;
+  width:100%;
   padding: 20px 92px;
   justify-content: center;
   align-items: center;
@@ -499,6 +484,10 @@ footer {
 .subscribe-form {
   text-align: left;
   align-items: end;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
 }
 
 .email-input {
@@ -732,6 +721,10 @@ footer {
 
 /* ------------facilities-------------- */
 
+
+
+/* ------------about us (new)-------------- */
+
 .aboutUs-section {
   display: flex;
   flex-wrap: wrap;
@@ -739,11 +732,7 @@ footer {
   justify-content:space-between;
   width: 80%;
   margin-left: 10%;
-
-  
 }
-
-/* ------------about us (new)-------------- */
 
 .aboutUs-text {
   width: 50%;

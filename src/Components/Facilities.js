@@ -9,9 +9,6 @@ export default function Facilities() {
       <section class="facilities">
         <h1>Our Unique Approach</h1>
         <p>
-          At the Learning Institute, we're a dedicated tuition company committed
-          to delivering outstanding education to the students who need it most.
-          <br />
           With every team member being a qualified teacher, our focus remains
           steadfast on providing unparalleled learning experiences for every pupil
           we serve.

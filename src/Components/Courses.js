@@ -16,10 +16,10 @@ export default function Courses() {
             <div class="course-col">
               <h3>Looked After Child (LAC)</h3>
               <p>
-                - All LAC teachers receive enhanced level 2 safeguarding training
+                - All our LAC teachers receive enhanced level 2 safeguarding training
                 <br />
                 <br />
-                - Fully vetted in line with safer recruitment practices and hold
+                - They are fully vetted in line with safer recruitment practices and hold
                 enhanced DBSs <br />
                 <br />
                 - Trained in CBT and Trauma Informed Practices <br />
@@ -34,7 +34,7 @@ export default function Courses() {
             <div class="course-col">
               <h3>Special Education Needs (SEN)</h3>
               <p>
-                - Experience in working with pupils with EHCP and supporting
+                - Experienced in working with pupils with EHCP and
                 pupils with set targets <br />
                 <br />- Liaise with GTAs, SENCOs and wider teams where appropriate{" "}
                 <br />
