@@ -1,6 +1,5 @@
 import React from "react";
-import logo from "../images/logo.png"
-
+import logo from "../images/logo.png";
 
 export default function Footer() {
   return (
@@ -36,11 +35,7 @@ export default function Footer() {
       </section>  */}
 
       <footer>
-
-
-
         <div class="footerContent">
-
           <div class="quickLinks">
             <p class="footerHeadings">Quick Links</p>
             <p class="footerText">Home</p>
@@ -66,19 +61,20 @@ export default function Footer() {
           </div>
 
           <div class="subscribe-form">
-          <p class="footerHeadings">Newsletter</p>
-            <input type="email" class="email-input" placeholder="Enter your email"/>
+            <p class="footerHeadings">Newsletter</p>
+            <input
+              type="email"
+              class="email-input"
+              placeholder="Enter your email"
+            />
             <button class="subscribe-btn">Subscribe</button>
           </div>
-
-
         </div>
       </footer>
 
       <div class="copyrightSection">
         <p> @Copyrights 2024 | All Rights Reserved | The Learning Institute</p>
       </div>
-
     </div>
   );
 }

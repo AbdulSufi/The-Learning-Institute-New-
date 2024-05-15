@@ -166,7 +166,10 @@ p {
   display: flex;
   justify-content: space-between;
 }
+.column-main{
+  flex-basis: 31%;
 
+}
 .course-col {
   flex-basis: 31%;
   background-color: #E6EAF0;
@@ -186,12 +189,12 @@ p {
 }
 
 .course-image {
-  width: 31%;
+  width: 100%;
   border-radius: 10px;
   box-shadow: 0 0 20px 0px rgba(50, 50, 51, 0.512);
   cursor: pointer;
   transition: 0.5s;
-
+  margin-bottom: 30px;
 }
 
 h3 {
@@ -472,8 +475,8 @@ footer {
 .footerContent {
   display: flex;
   align-items: flex-start;
-  gap: 126px;
-  max-width: 1099px;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .copyrightSection {
@@ -739,6 +742,8 @@ footer {
   
 }
 
+
+
 .aboutUs-text {
   width: 50%;
   transition: box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
@@ -767,4 +772,12 @@ footer {
 .aboutUs-h1 {
   text-align: center;
   margin: 40px;
+}
+
+@media screen and (max-width: 800px){
+  .aboutUs-section{
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0%;
+  }
 }
