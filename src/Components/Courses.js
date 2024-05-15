@@ -9,12 +9,6 @@ export default function Courses() {
       <section class="course">
         <h1>Tailored Tuition for All Pupils</h1>
         <p>All our tutors are qualified teachers with PGCE and QTS</p>
-{/* 
-        <div class="course-images-container">
-          <img className="course-image" src={kidsimage6} width={150} />
-          <img className="course-image" src={kidsimage7} width={150} />
-          <img className="course-image" src={kidsimage8} width={150} />
-        </div> */}
 
         <div class="row">
           <div className="column-main">
@@ -22,7 +16,7 @@ export default function Courses() {
             <div class="course-col">
               <h3>Looked After Child (LAC)</h3>
               <p>
-                All LAC teachers receive enhanced level 2 safeguarding training
+                - All LAC teachers receive enhanced level 2 safeguarding training
                 <br />
                 <br />
                 - Fully vetted in line with safer recruitment practices and hold
@@ -34,35 +28,42 @@ export default function Courses() {
               </p>
             </div>
           </div>
-          
-          <div class="course-col">
-            <h3>Special Education Needs (SEN)</h3>
-            <p>
-              - Experience in working with pupils with EHCP and supporting
-              pupils with set targets <br />
-              <br />- Liaise with GTAs, SENCOs and wider teams where appropriate{" "}
-              <br />
-              <br />
-              - Trained in CBT and Trauma Informed Practices <br />
-              <br />- Our teachers have experience working with students with
-              autism/ASC, ADHD/ADD, Dyslexia, SEMH and Dyspraxia.
-            </p>
+
+          <div className="column-main">
+            <img className="course-image" src={kidsimage7} width={150} />
+            <div class="course-col">
+              <h3>Special Education Needs (SEN)</h3>
+              <p>
+                - Experience in working with pupils with EHCP and supporting
+                pupils with set targets <br />
+                <br />- Liaise with GTAs, SENCOs and wider teams where appropriate{" "}
+                <br />
+                <br />
+                - Trained in CBT and Trauma Informed Practices <br />
+                <br />
+                - We work with pupils with autism/ASC, ADHD/ADD, Dyslexia, SEMH and Dyspraxia
+              </p>
+            </div>
           </div>
 
-          <div class="course-col">
-            <h3>Alternative Provision (AP)</h3>
-            <p>
-              - Teachers with Outstanding behaviour management skills
-              <br />
-              <br />
-              - Rapport building and holistic target setting
-              <br />
-              <br />
-              - Promote progress by planning lessons aligned to the curriculum
-              <br />
-              <br />- Proactive communication and feedback to parents/schools
-              regarding progress/attendance.
-            </p>
+
+          <div className="column-main">
+            <img className="course-image" src={kidsimage8} width={150} />
+            <div class="course-col">
+              <h3>Alternative Provision (AP)</h3>
+              <p>
+                - Our teachers have outstanding behaviour management skills
+                <br />
+                <br />
+                - We value rapport building and holistic target setting
+                <br />
+                <br />
+                - We promote progress by planning lessons aligned to the curriculum
+                <br />
+                <br />- Proactive communication and feedback to parents/schools
+                regarding progress/attendance
+              </p>
+            </div>
           </div>
         </div>
       </section>
