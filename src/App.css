@@ -428,16 +428,14 @@ h3 {
 
 
 .footer-parent{
-
+  width: 100%;
 }
 
 footer {
   background: #F1F9F9;
-  width:80%;
-  padding: 80px 92px 30px 92px;
+  width:100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 
@@ -470,7 +468,8 @@ footer {
 
 .copyrightSection {
   display: flex;
-  width:80%;
+  flex-wrap: wrap;
+
   padding: 20px 92px;
   justify-content: center;
   align-items: center;

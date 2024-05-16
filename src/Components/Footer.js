@@ -46,6 +46,7 @@ export default function Footer() {
       <div class="copyrightSection">
         <p> @Copyrights 2024 | All Rights Reserved | The Learning Institute</p>
       </div>
+      
     </div>
   );
 }
