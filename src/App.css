@@ -166,10 +166,12 @@ p {
   display: flex;
   justify-content: space-between;
 }
-.column-main{
+
+.column-main {
   flex-basis: 31%;
 
 }
+
 .course-col {
   flex-basis: 31%;
   background-color: #E6EAF0;
@@ -427,13 +429,13 @@ h3 {
   */
 
 
-.footer-parent{
+.footer-parent {
   width: 100%;
 }
 
 footer {
   background: #F1F9F9;
-  width:100%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -469,7 +471,6 @@ footer {
 .copyrightSection {
   display: flex;
   flex-wrap: wrap;
-
   padding: 20px 92px;
   justify-content: center;
   align-items: center;
@@ -486,19 +487,20 @@ footer {
 
 .subscribe-form {
   text-align: left;
-  align-items: end;
+  align-items: start;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-
 }
 
 .email-input {
   text-align: left;
+  align-items: start;
   border: 1px solid white;
-  padding: 12px 34px;
+  padding: 12px 24px;
   border: 2px solid rgb(72, 141, 226);
   margin-bottom: 10px;
+  margin-left: 10px;
 }
 
 .subscribe-btn {
@@ -511,6 +513,7 @@ footer {
   position: relative;
   cursor: pointer;
   transition: 1s;
+  align-items: left;
   margin-left: 10px;
 }
 
@@ -732,7 +735,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
   width: 80%;
   margin-left: 10%;
 }
@@ -767,21 +770,21 @@ footer {
   margin: 40px;
 }
 
-@media screen and (max-width: 800px){
-  .aboutUs-section{
+@media screen and (max-width: 800px) {
+  .aboutUs-section {
     flex-direction: column;
     width: 100%;
     margin-left: 0%;
   }
-  
-    .aboutUs-text{
-       width: 80%;
-       text-align: center;
-       margin-bottom: 4%;
-    }
 
-    .aboutUs-imageBox{
-      width: 80%;
-    }
- 
+  .aboutUs-text {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 4%;
+  }
+
+  .aboutUs-imageBox {
+    width: 80%;
+  }
+
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import background from '../images/background.jpg';
+import kidsimage from '../images/kidsimage(11).jpeg';
 
 export default function AboutUs() {
   return (
@@ -24,7 +24,7 @@ export default function AboutUs() {
         </div>
 
         <div className='aboutUs-imageBox'>
-          <img className='aboutUs-Image' src={background} />
+          <img className='aboutUs-Image' src={kidsimage} />
         </div>
 
       </section>

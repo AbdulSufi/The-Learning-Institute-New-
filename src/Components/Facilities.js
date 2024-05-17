@@ -1,6 +1,6 @@
 import React from 'react'
 import tutoring1 from "../images/kidsimage(2).jpeg";
-import onlinelearning from "../images/kidsimage(1).jpeg";
+import onlinelearning from "../images/kidsimage(10).jpeg";
 import tutoring2 from "../images/kidsimage(3).jpeg";
 
 export default function Facilities() {
