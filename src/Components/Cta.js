@@ -7,9 +7,11 @@ export default function Cta() {
         <h1>Book a consultation 
           <br></br>
           to discuss your tuition needs</h1>
-        <a href="contact.html" class="hero-btn">
-          CONTACT US
-        </a>
+          <a href="mailto:Info@learning-institute.co.uk" class="hero-btn">
+            CONTACT US: <br></br>
+            <br></br>
+            Info@learning-institute.co.uk
+          </a>
       </section>
     </div>
   );
