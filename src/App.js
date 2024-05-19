@@ -7,6 +7,7 @@ import Facilities from './Components/Facilities';
 import AboutUs from './Components/AboutUs'
 import Cta from './Components/Cta';
 import Footer from './Components/Footer';
+import Prices from './Components/Prices';
 
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={ <><Header/> <Courses/> <Facilities/> <Campus/> <AboutUs/>  <Cta/> <Footer/></>}/>
+        <Route path='/prices' element={ <><Header/> <Prices/> <AboutUs/>  <Cta/> <Footer/></>}/>
+
       </Routes>
     </BrowserRouter>
    </>
