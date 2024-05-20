@@ -1,5 +1,5 @@
 import React from 'react'
-import kidsimage from '../images/kidsimage(11).jpeg';
+import kidsimage from '../images/kidsimage(11).jpg';
 
 export default function AboutUs() {
   return (
