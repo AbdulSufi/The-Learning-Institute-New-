@@ -1,7 +1,7 @@
 import React from "react";
-import kidsimage6 from "../images/kidsimage(6).jpeg";
-import kidsimage7 from "../images/kidsimage7.jpeg";
-import kidsimage8 from "../images/kidsimage8.jpeg";
+import kidsimage6 from "../images/kidsimage(6).jpg";
+import kidsimage7 from "../images/kidsimage(7).jpg";
+import kidsimage8 from "../images/kidsimage(8).jpg";
 
 export default function Courses() {
   return (
