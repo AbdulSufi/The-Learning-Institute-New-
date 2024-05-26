@@ -20,7 +20,7 @@ export default function Footer() {
             <p class="footerHeadings">Legal Stuff</p>
             <p class="footerText">Privacy Policy</p>
             <p class="footerText">Terms & Conditions</p>
-            <p class="footerText">Whistle Blowing Policy</p>
+            <p class="footerText">Safeguarding</p>
             <p class="footerText">Other Policies</p>
           </div>
 
@@ -28,11 +28,10 @@ export default function Footer() {
             <p class="footerHeadings">Contact Info</p>
             <p class="footerText">Phone: +44(0)2034880982 </p>
             <p class="footerText">Email: Info@learning-institute.co.uk</p>
-            <p class="footerText footer-address">Address: Learning Institute, <br></br>
-            Office 6255, <br></br>
-            321-323 High Road,  <br></br>
-            Chadwell Heath, <br></br>
-            Essex, RM6 6AX, UK</p>
+            <p class="footerText footer-address">Address: <br></br>
+            Learning Institute, Office 6255, <br></br>
+            321-323 High Road, Chadwell Heath,   <br></br>
+            London, RM6 6AX, UK</p>
           </div>
 
           <div class="subscribe-form">
