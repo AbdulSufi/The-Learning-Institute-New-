@@ -1,7 +1,7 @@
 import React from 'react'
-import kidsimage5 from "../images/kidsimage(5).jpeg";
+import kidsimage5 from "../images/kidsimage(5).jpg";
 import newYork from "../images/newyork.png";
-import kidsimage4 from '../images/kidsimage(4).jpeg';
+import kidsimage4 from '../images/kidsimage(4).jpg';
 
 
 export default function Campus() {
@@ -25,6 +25,7 @@ export default function Campus() {
 
             <div class="layer">
               <h3>Both in person and online tuition is offered depending on tutor allocation and preference.</h3>
+  
             </div>
           </div>
 
