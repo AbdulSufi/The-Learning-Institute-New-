@@ -1,11 +1,17 @@
 import React from "react";
+import serviceTable from "../images/servicesTableNew.jpg";
+export default Prices; 
 
 function Prices(){
     return (
-        <div>
-            <h1>Prices</h1>
+        <div className="pricesSection">
+            <h1>Services & Prices</h1>
+
+            <div className="pricesImage">
+                <img src="serviceTable"/>
+            </div>
+
         </div>
     )
 }
 
-export default Prices;
