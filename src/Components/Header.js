@@ -10,12 +10,10 @@ export default function Header() {
         <div class="text-box">
           <h1>Learning Institute</h1>
           <p>
-          Providing tailored tuition to primary and secondary school students, our team of outstanding qualified teachers specialise in meeting diverse pupil needs and groups, including SEN, LAC and AP. We prioritise a holistic approach to education, with additional training in trauma-informed practices and cognitive behavior therapy for our teachers. Students benefit from personalised attention, fostering progress and maximizing their potential.
+          Providing tailored tuition to Primary and Secondary school students, our team of outstanding qualified teachers specialise in meeting diverse pupil needs, including Special Educational Needs (SEN), Looked After Children (LAC) and pupils in Alternative Provision (AP). We prioritise a holistic approach to education which is why all our tutors utilise trauma-informed practices and cognitive behaviour therapy to meet pupil needs.
           </p>
           <a href="mailto:Info@learning-institute.co.uk" class="hero-btn">
-            CONTACT US: <br></br>
-            <br></br>
-            Info@learning-institute.co.uk
+            CONTACT US <br></br>
           </a>
         </div>
       </section>

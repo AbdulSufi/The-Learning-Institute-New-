@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../images/logo.png";
 
 export default function Footer() {
   return (
@@ -26,7 +25,7 @@ export default function Footer() {
 
           <div class="ourServices">
             <p class="footerHeadings">Contact Info</p>
-            <p class="footerText">Phone: +44(0)2034880982 </p>
+            <p class="footerText">Phone: 020 34880982 </p>
             <p class="footerText">Email: Info@learning-institute.co.uk</p>
             <p class="footerText footer-address">Address: <br></br>
             Learning Institute, Office 6255, <br></br>

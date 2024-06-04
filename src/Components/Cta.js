@@ -8,9 +8,7 @@ export default function Cta() {
           <br></br>
           to discuss your tuition needs</h1>
           <a href="mailto:Info@learning-institute.co.uk" class="hero-btn">
-            CONTACT US: <br></br>
-            <br></br>
-            Info@learning-institute.co.uk
+            CONTACT US <br></br>
           </a>
       </section>
     </div>

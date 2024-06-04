@@ -1,5 +1,5 @@
 import React from 'react'
-import tutoring1 from "../images/Kidsimage(2).jpg";
+import tutoring1 from "../images/kidsimage(6).jpg";
 import onlinelearning from "../images/kidsimage(10).jpg";
 import tutoring2 from "../images/Kidsimage(3).jpg";
 
