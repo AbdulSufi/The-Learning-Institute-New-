@@ -1,5 +1,5 @@
 import React from "react";
-import serviceTable from "../images/servicesTableNew.jpg";
+import serviceTable from "../images/servicesTableNew (2).jpg";
 export default Prices;
 
 function Prices() {
@@ -7,8 +7,8 @@ function Prices() {
         <div className="pricesSection">
             <h1> Prices</h1>
 
-            <div className="pricesImage">
-                <img src={serviceTable} />
+            <div className="pricesContainer">
+                <img className="pricesImage" src={serviceTable} />
             </div>
 
         </div>
