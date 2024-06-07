@@ -16,7 +16,7 @@ export default function Facilities() {
 
         <div class="row">
           <div class="facilities-cols">
-            <img src={tutoring1} />
+          <img className='image1' src={tutoring1} />
             <h3>Curriculum Alignment</h3>
             <div class="facilities-cols-inner">
               <ul>

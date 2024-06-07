@@ -311,9 +311,13 @@ h3 {
 }
 
 .facilities-cols img {
-  width: 100%;
+  width: 90%;
   border-radius: 10px;
+  padding: 20px;
+  height: 35vh;
+  border-radius: 30px;
 }
+
 
 .facilities-cols p {
   padding: 0;
@@ -494,7 +498,7 @@ footer {
   background-color: #f44336;
 }
 
-.footer-address{
+.footer-address {
   line-height: 25px;
 }
 
@@ -502,14 +506,14 @@ footer {
 /* ----------Prices Page-------- */
 
 
-.pricesSection{
+.pricesSection {
   text-align: center;
   width: 100%;
   margin-top: 100px;
 }
 
-.pricesImage{
- width: 80%;
+.pricesImage {
+  width: 80%;
 }
 
 
@@ -784,8 +788,8 @@ footer {
 
 }
 
-@media screen and (max-width: 480px){
-  .footerContent{
+@media screen and (max-width: 480px) {
+  .footerContent {
     justify-content: flex-start;
     gap: 30px;
     padding-left: 20px;
