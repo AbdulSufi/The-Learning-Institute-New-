@@ -4,7 +4,7 @@ import kidsimage from '../images/kidsimage(11).jpg';
 export default function AboutUs() {
   return (
 
-    <div>
+    <div id='aboutUs'>
       <h1 className='aboutUs-h1'>About Us</h1>
       <section className='aboutUs-section'>
 

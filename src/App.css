@@ -795,3 +795,16 @@ footer {
     padding-left: 20px;
   }
 }
+
+#aboutUs{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.links{
+  text-decoration: none;
+  color: black;
+}
