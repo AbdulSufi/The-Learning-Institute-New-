@@ -4,7 +4,7 @@ export default Prices;
 
 function Prices() {
     return (
-        <div className="pricesSection" id="prices">
+        <div className="pricesSection" >
             <h1> Prices</h1>
 
             <div className="pricesContainer">

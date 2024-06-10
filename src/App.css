@@ -508,18 +508,19 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 80%;
-  text-align: center;
-  align-items: center;
-  margin-top: 100px auto;
+  width: 100%;
   padding-top: 40px;
-  border: solid red;
+   align-items: center;
+  text-align: center;
+}
+
+.pricesContainer{
+
 }
 
 .pricesImage {
   width: 75%;
 }
-
 
 
 /* -----blog content-------- */
@@ -679,6 +680,11 @@ footer {
 
 
 /* ------------about us (new)-------------- */
+
+#aboutUs{
+  padding-top: 20px;
+}
+
 
 .aboutUs-section {
   display: flex;

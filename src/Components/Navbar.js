@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <div>
       <nav>
-        <a href="index.html">
+        <a>
           <img src={logo} alt="logo" />
         </a>
         <div class="nav-links" id="navLinks">
