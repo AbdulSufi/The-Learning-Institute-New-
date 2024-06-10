@@ -603,6 +603,57 @@ footer {
 }
 
 
+/* ------- Contact us page (NEW) ------ */
+
+.contact-Section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;  
+  width: 100%;
+  align-items: center;
+  border: solid red;
+  height: 70vh;
+}
+
+.contact-container {
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 50%;
+  height: 50vh;
+}
+
+.contact-image{
+  width: 60%;
+}
+
+.contact-h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 30px;
+}
+
+.contact-info p strong {
+  color: #333;
+}
+
+.contact-info a {
+  color: #666;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+
+
+
 /* ------- Contact us page ------ */
 
 .location {
@@ -675,8 +726,6 @@ footer {
   margin-top: 2%;
 }
 
-/* ------------facilities-------------- */
-
 
 
 /* ------------about us (new)-------------- */
@@ -698,6 +747,8 @@ footer {
 }
 
 .aboutUs-textBox {
+  display: flex;
+  flex-wrap: wrap;
   width: 50%;
   transition: box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
   height: 70vh;
