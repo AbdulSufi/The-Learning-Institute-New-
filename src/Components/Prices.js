@@ -8,7 +8,7 @@ function Prices() {
             <h1> Prices</h1>
 
             <div className="pricesContainer">
-                <img className="pricesImage" src={serviceTable} />
+                <img className="pricesImage" src={serviceTable}/>
             </div>
 
         </div>
