@@ -19,6 +19,15 @@ body {
   background-attachment: fixed;
 }
 
+@media screen and (max-width: 500px){
+  .header{
+    min-height: 90vh;
+  }
+  .text-box{
+    margin-top: 50px;
+  }
+}
+
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -93,6 +102,24 @@ nav img {
   position: relative;
   cursor: pointer;
   transition: 1s;
+}
+
+.primary-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #E45A36;
+  padding: 12px 34px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  transition: 1s;
+  border-radius: 5px;
+}
+
+.primary-btn:hover{
+  background:none;
+  border: 1px solid white;
 }
 
 .hero-btn:hover {
@@ -669,33 +696,49 @@ footer {
 .contact-us {
   width: 80%;
   margin: auto;
+  margin-top: 50px;
+  padding: 30px;
+  border: 5px solid #E45A36;
+  border-radius: 20px;
+  background-color: rgb(41, 41, 41);
+  color: white;
 }
 
 .contact-col {
   flex-basis: 48%;
   margin-bottom: 30px;
+  align-items: center;
 }
 
-.contact-col div {
+.contact-col1 {
+  flex-basis: 48%;
+  margin-bottom: 30px;
+  align-items: center;
+  margin-top: 50px;
+
+}
+
+.contact-col div, .contact-col1 div {
   display: flex;
   align-items: center;
   margin-bottom: 40px;
 }
 
-.contact-col .fa-solid {
+.contact-col .fa-solid,.contact-col1 .fa-solid {
   font-size: 20px;
   margin: 10px;
   margin-right: 30px;
 }
 
-.contact-col div p {
+.contact-col div p,.contact-col1 div p {
   padding: 0;
+  color: white;
 }
 
-.contact-col div h5 {
+.contact-col div h5,.contact-col1 div h5 {
   font-size: 20px;
   margin-bottom: 5px;
-  color: #555;
+  color: rgb(207, 207, 207);
   font-weight: 400;
 }
 
@@ -705,8 +748,10 @@ footer {
   padding: 15px;
   margin-bottom: 17px;
   outline: none;
-  border: 1px solid #ccc;
+  border: 2px solid #E45A36;
   box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
 }
 
 .contact {
@@ -817,4 +862,75 @@ footer {
 .links {
   text-decoration: none;
   color: black;
+}
+
+.privacy{
+  width: 80%;
+  padding: 30px;
+  background-color: #333;
+  color: white;
+  border: 5px solid #E45A36;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 50px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.365);
+}
+
+.privacy p{
+  color: #ccc;
+}
+
+.line{
+  background-color: white;
+  height: 2px;
+  border: none;
+}
+
+@media screen and (max-width: 500px) {
+  .privacy h1{
+    font-size: 25px;
+  }
+
+  .privacy h2{
+    font-size: 20px;
+  }
+
+}
+
+
+.about-us{
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.about-col{
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+
+.about-col img{
+  width: 100%;
+}
+
+.about-col h1{
+  padding-top: 0;
+}
+
+.about-col p{
+  padding: 15px 0 25px;
+}
+
+@media screen and (max-width: 500px) {
+
+  .about-col h1{
+    font-size: 25px;
+    text-align: center;
+  }
+}
+
+.safeguard{
+  width: 100%;
+  height: 100vh;
 }

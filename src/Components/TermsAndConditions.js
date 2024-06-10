@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function Privacy() {
+export default function TermsAndConditions() {
   return (
     <div className="privacy">
       <center>
-      <h1>Privacy Policy</h1>
+      <h1>Terms and Conditions</h1>
       <br/> 
       <hr className="line"/>
       <br/>

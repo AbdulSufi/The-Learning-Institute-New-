@@ -6,7 +6,6 @@ export default function Header() {
     <div>
       <section class="header">
         <Navbar />
-
         <div class="text-box">
           <h1>Learning Institute</h1>
           <p>

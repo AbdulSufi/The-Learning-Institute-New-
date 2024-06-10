@@ -19,16 +19,16 @@ export default function Navbar() {
   return (
     <div>
       <nav>
-        <a>
+        <Link to={"/"}>
           <img src={logo} alt="logo" />
-        </a>
+        </Link>
         <div class="nav-links" id="navLinks">
           <i class="fa-solid fa-xmark" onClick={hideMenu}></i>
           <ul>
-            <li><Link to={"/"}>Home</Link></li>
-            <li><Link to={"/aboutUs"}>About</Link></li>
-            <li><Link to={"/prices"}>Prices</Link></li>
-            <li><Link to={"/contactUs"}>Contact</Link></li>
+            <li><Link to={"/"} onClick={hideMenu}>Home</Link></li>
+            <li><Link to={"/aboutUs"} onClick={hideMenu}>About</Link></li>
+            <li><Link to={"/prices"} onClick={hideMenu}>Prices</Link></li>
+            <li><Link to={"/contactUs"} onClick={hideMenu}>Contact</Link></li>
           </ul>
         </div>
         <i class="fa-solid fa-bars" onClick={showMenu}></i>

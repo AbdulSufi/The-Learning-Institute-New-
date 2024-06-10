@@ -10,6 +10,7 @@ import Prices from './Components/Prices';
 import Safeguarding from './Components/Safeguarding';
 import Privacy from './Components/Privacy';
 import ContactUs from './Components/ContactUs';
+import TermsAndConditions from './Components/TermsAndConditions';
 
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
         <Route path='/contactUs' element={ <><Header/> <ContactUs/>  <Cta/> <Footer/></>}/>
         <Route path='/safeguard' element={ <><Header/> <Safeguarding/>  <Cta/> <Footer/></>}/>
         <Route path='/privacy' element={ <><Header/> <Privacy/>  <Cta/> <Footer/></>}/>
+        <Route path='/t&c' element={ <><Header/> <TermsAndConditions/>  <Cta/> <Footer/></>}/>
+        
 
       </Routes>
     </BrowserRouter>
