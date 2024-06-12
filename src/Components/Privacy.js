@@ -18,7 +18,7 @@ export default function Privacy() {
         <p>
           1. <b>Information Sharing</b> The Learning Institute may share relevant
           information provided during the enrollment process with teachers
-          assigned to the student. This ensures a personalized and effective
+          assigned to the student. This ensures a personalised and effective
           educational experience.
         </p>{" "}
         <p>
@@ -33,7 +33,7 @@ export default function Privacy() {
         <p>
           3. <b>Recording of Sessions</b> All tutoring sessions, both online and in
           person, will be recorded for safeguarding purposes. These recordings
-          are stored securely and confidentially in a centralized location for
+          are stored securely and confidentially in a centralised location for
           the duration of the tuition cycle. Once the tuition cycle is complete,
           the recordings will be permanently deleted. This practice ensures the
           safety of all parties involved while maintaining strict
@@ -62,22 +62,22 @@ export default function Privacy() {
           (GDPR). All personal information and recorded sessions are treated
           with strict confidentiality and stored securely. Information collected
           will only be used for the purpose of providing tutoring services and
-          will not be shared with unauthorized parties. You have the right to
+          will not be shared with unauthorised parties. You have the right to
           access, rectify, or delete your personal data at any time. For any
           data protection inquiries, please contact our Data Protection Officer
-          at [contact email].
+          at [info@learning-institute.co.uk].
         </p>{" "}
         <p>
           7. <b>Commitment to Quality and Service</b> The Learning Institute
           commits to providing exceptional educational services through
           qualified and experienced tutors. We aim to meet the educational needs
-          of each student with a personalized approach, ensuring that learning
+          of each student with a personalised approach, ensuring that learning
           goals are met effectively.
         </p>{" "}
         <p>
           8. <b>Contact Information</b> If you have any questions or concerns
           regarding these terms and conditions or our services, please contact
-          us at [contact email] or [contact phone number]. By continuing to use
+          us at [info@learning-institute.co.uk] or [02034880982]. By continuing to use
           our services, you acknowledge that you have read and understood these
           terms and conditions. Your trust in our commitment to quality
           education is important to us.

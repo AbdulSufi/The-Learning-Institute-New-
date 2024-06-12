@@ -27,7 +27,7 @@ export default function Facilities() {
                 </li>
                 <br />
                 <li>
-                  Our teachers deliver bespoke learning plans that prioritize
+                  Our teachers deliver bespoke learning plans that prioritise
                   individual needs and learning objectives, enabling students to
                   progress and achieve measurable outcomes whilst building
                   rapport.
