@@ -25,6 +25,7 @@ export default function Navbar() {
             <li><Link to={"/"} onClick={hideMenu}>Home</Link></li>
             <li><Link to={"/aboutUs"} onClick={hideMenu}>About</Link></li>
             <li><Link to={"/prices"} onClick={hideMenu}>Prices</Link></li>
+            <li><Link to={"/vetting"} onClick={hideMenu}>Vetting</Link></li>
             <li><Link to={"/contactUs"} onClick={hideMenu}>Contact</Link></li>
           </ul>
         </div>
