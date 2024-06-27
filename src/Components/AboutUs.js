@@ -8,7 +8,7 @@ export default function AboutUs() {
       <div class="row">
         <div class="about-col">
           <h1>
-            Providing Tailored Tuition to Primary and Secondary School Students
+            About Us
           </h1>
           <p>
             {" "}

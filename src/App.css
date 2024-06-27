@@ -541,10 +541,6 @@ footer {
   text-align: center;
 }
 
-.pricesContainer{
-
-}
-
 .pricesImage {
   width: 75%;
 }
@@ -748,7 +744,7 @@ footer {
   padding: 15px;
   margin-bottom: 17px;
   outline: none;
-  border: 2px solid #E45A36;
+  border: 2px solinvpd #E45A36;
   box-sizing: border-box;
   border-radius: 5px;
   box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
