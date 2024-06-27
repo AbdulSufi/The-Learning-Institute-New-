@@ -943,3 +943,31 @@ footer {
   }
 }
 
+.vetting-container{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.vettings-items{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.items{
+  width: 300px;
+  background-color: #353535;
+  color: white;
+  border: 3px solid #E45A36;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.items h1{
+  color: #E45A36;
+}
+
