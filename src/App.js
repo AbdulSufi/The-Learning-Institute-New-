@@ -19,7 +19,7 @@ function App() {
    <>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={ <><Header/> <Courses/> <Facilities/> <Prices/> <AboutUs/> <Vetting/> <Cta/> <Footer/></>}/>
+        <Route path='/' element={ <><Header/> <Courses/> <Facilities/> <Prices/> <AboutUs/> <Cta/> <Footer/></>}/>
         <Route path='/prices' element={ <><Header/> <Prices/> <Cta/> <Footer/></>}/>
         <Route path='/aboutUs' element={ <><Header/> <AboutUs/>  <Cta/> <Footer/></>}/>
         <Route path='/contactUs' element={ <><Header/> <ContactUs/>  <Cta/> <Footer/></>}/>
