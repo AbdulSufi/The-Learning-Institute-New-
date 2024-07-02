@@ -19,14 +19,14 @@ function App() {
    <>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={ <><Header/> <Courses/> <Facilities/> <Prices/> <AboutUs/> <Cta/> <Footer/></>}/>
-        <Route path='/prices' element={ <><Header/> <Prices/> <Cta/> <Footer/></>}/>
-        <Route path='/aboutUs' element={ <><Header/> <AboutUs/>  <Cta/> <Footer/></>}/>
-        <Route path='/contactUs' element={ <><Header/> <ContactUs/>  <Cta/> <Footer/></>}/>
-        <Route path='/safeguard' element={ <><Header/> <Safeguarding/>  <Cta/> <Footer/></>}/>
-        <Route path='/privacy' element={ <><Header/> <Privacy/>  <Cta/> <Footer/></>}/>
-        <Route path='/t&c' element={ <><Header/> <TermsAndConditions/>  <Cta/> <Footer/></>}/>
-        <Route path='/vetting' element={ <><Header/> <Vetting/>  <Cta/> <Footer/></>}/>
+        <Route path='/' element={ <><Header displayPara="true"/> <Courses/> <Facilities/> <Prices/> <AboutUs/> <Vetting/> <Cta/> <Footer/></>}/>
+        <Route path='/prices' element={ <><Header displayPara="false" /> <Prices/> <Cta/> <Footer/></>}/>
+        <Route path='/aboutUs' element={ <><Header  displayPara="false" /> <AboutUs/>  <Cta/> <Footer/></>}/>
+        <Route path='/contactUs' element={ <><Header  displayPara="false"/> <ContactUs/>  <Cta/> <Footer/></>}/>
+        <Route path='/safeguard' element={ <><Header  displayPara="false"/> <Safeguarding/>  <Cta/> <Footer/></>}/>
+        <Route path='/privacy' element={ <><Header  displayPara="false"/> <Privacy/>  <Cta/> <Footer/></>}/>
+        <Route path='/t&c' element={ <><Header  displayPara="false"/> <TermsAndConditions/>  <Cta/> <Footer/></>}/>
+        <Route path='/vetting' element={ <><Header  displayPara="false"/> <Vetting/>  <Cta/> <Footer/></>}/>
 
       </Routes>
     </BrowserRouter>
