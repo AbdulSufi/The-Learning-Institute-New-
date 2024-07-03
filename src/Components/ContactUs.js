@@ -10,10 +10,9 @@ export default function ContactUs() {
             <i class="fa-solid fa-home"></i>
             <span>
               <h5>
-                Learning Institute, Office 6255, 321-323 High Road
+                Learning Institute, Office 6255, 321-323 High Road,
+                Chadwell Heath, London, RM6 6AX, UK
               </h5>
-              <p>Chadwell
-              Heath, London, RM6 6AX, UK</p>
             </span>
           </div>
 
@@ -28,7 +27,6 @@ export default function ContactUs() {
             <i class="fa-solid fa-envelope"></i>
             <span>
               <h5>Info@learning-institute.co.uk</h5>
-              <p>Email us your query</p>
             </span>
           </div>
         </div>
