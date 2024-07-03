@@ -12,6 +12,7 @@ import Privacy from './Components/Privacy';
 import ContactUs from './Components/ContactUs';
 import TermsAndConditions from './Components/TermsAndConditions';
 import Vetting from './Components/Vetting';
+import Supply from './Components/Supply';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
    <>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={ <><Header displayPara="true"/> <Courses/> <Facilities/> <Prices/> <AboutUs/> <Cta/> <Footer/></>}/>
+        <Route path='/' element={ <><Header displayPara="true"/> <Courses/> <Facilities/> <Supply/> <Prices/> <Cta/> <Footer/></>}/>
         <Route path='/prices' element={ <><Header displayPara="false" /> <Prices/> <Cta/> <Footer/></>}/>
         <Route path='/aboutUs' element={ <><Header  displayPara="false" /> <AboutUs/>  <Cta/> <Footer/></>}/>
         <Route path='/contactUs' element={ <><Header  displayPara="false"/> <ContactUs/>  <Cta/> <Footer/></>}/>
