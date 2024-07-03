@@ -14,6 +14,7 @@ export default function Footer() {
             <p class="footerText"><Link to={"/"} className="links">Home</Link></p>
             <p class="footerText"><Link to={"/aboutUs"} className="links">About</Link></p>
             <p class="footerText"><Link to={"/prices"} className="links" >Prices</Link></p>
+            <p class="footerText"><Link to={"/vetting"} className="links" >Vetting</Link></p>
             <p class="footerText"><Link to={"/contactUs"} className="links" >Contact</Link></p>
           </div>
 

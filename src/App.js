@@ -19,7 +19,7 @@ function App() {
    <>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={ <><Header displayPara="true"/> <Courses/> <Facilities/> <Prices/> <AboutUs/> <Vetting/> <Cta/> <Footer/></>}/>
+        <Route path='/' element={ <><Header displayPara="true"/> <Courses/> <Facilities/> <Prices/> <AboutUs/> <Cta/> <Footer/></>}/>
         <Route path='/prices' element={ <><Header displayPara="false" /> <Prices/> <Cta/> <Footer/></>}/>
         <Route path='/aboutUs' element={ <><Header  displayPara="false" /> <AboutUs/>  <Cta/> <Footer/></>}/>
         <Route path='/contactUs' element={ <><Header  displayPara="false"/> <ContactUs/>  <Cta/> <Footer/></>}/>
