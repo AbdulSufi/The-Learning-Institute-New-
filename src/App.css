@@ -343,7 +343,6 @@ h3 {
   border-radius: 30px;
 }
 
-
 .facilities-cols p {
   padding: 0;
 }
@@ -477,6 +476,11 @@ footer {
   line-height: 25px;
 }
 
+.links {
+  text-decoration: none;
+  color: black;
+}
+
 
 /* ----------Prices Page-------- */
 
@@ -493,55 +497,6 @@ footer {
 
 .pricesImage {
   width: 75%;
-}
-
-
-/* ------- Contact us page (NEW) ------ */
-
-.contact-Section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
-  border: solid red;
-  height: 70vh;
-}
-
-.contact-container {
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-  width: 50%;
-  height: 50vh;
-}
-
-.contact-image {
-  width: 60%;
-}
-
-.contact-h1 {
-  color: #333;
-  margin-bottom: 20px;
-}
-
-.contact-info p {
-  color: #666;
-  line-height: 1.6;
-  font-size: 30px;
-}
-
-.contact-info p strong {
-  color: #333;
-}
-
-.contact-info a {
-  color: #666;
-  text-decoration: none;
-}
-
-.contact-info a:hover {
-  text-decoration: underline;
 }
 
 
@@ -643,45 +598,12 @@ footer {
 
 /* ------------about us (new)-------------- */
 
-#aboutUs {
-  padding-top: 20px;
-}
-
-.aboutUs-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 80%;
-  height: 70vh;
-  margin: 20px auto;
-  text-align: center;
-  padding: 20px;
-}
-
-.aboutUs-textBox {
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-  transition: box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
-  height: 70vh;
-}
-
-.aboutUs-text {
-  font-size: 22px;
-  text-align: start;
-}
-
 
 .aboutUs-text:hover {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background: linear-gradient(to bottom, #ffffff, #c9c9c9);
   color: #333333;
   border-radius: 10px;
-}
-
-.aboutUs-imageBox {
-  width: 45%;
-  height: 70vh;
 }
 
 .aboutUs-Image {
@@ -691,10 +613,6 @@ footer {
   border-radius: 20px;
 }
 
-.aboutUs-h1 {
-  text-align: center;
-  margin-top: 40px;
-}
 
 @media screen and (max-width: 1100px) {
   .aboutUs-section {
@@ -723,10 +641,6 @@ footer {
   }
 }
 
-.links {
-  text-decoration: none;
-  color: black;
-}
 
 /* ------------Privacy-------------- */
 
@@ -740,7 +654,7 @@ footer {
 .about-us {
   width: 80%;
   margin: auto;
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 50px;
 }
 
@@ -768,6 +682,8 @@ footer {
     text-align: center;
   }
 }
+
+/* ------------Safeguarding-------------- */
 
 .safeguard {
   width: 100%;
@@ -799,8 +715,6 @@ footer {
   margin-top: 20px;
   text-align: left;
 }
-
-
 
 
 /* ------------Vetting-------------- */
