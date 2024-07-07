@@ -4,7 +4,7 @@ export default function Supply() {
     return (
 
         <section className='supply-container'>
-            <h1>Supply Teachers</h1>
+            <h1>Supply Teachers for Schools</h1>
 
             <div className='supply-text'>
                 <p>
